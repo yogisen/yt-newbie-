@@ -10,6 +10,9 @@ public class ExamenTest {
 	 
 	 Examen examen = new Examen();
 	 examen.afficherMessage();
+	 examen.dureeDeLEpreuve();
+	 examen.question1();
+	 examen.question2();
 
 	 System.out.println(name);
 	 System.out.println(name1);
