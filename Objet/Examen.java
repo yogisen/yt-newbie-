@@ -2,16 +2,24 @@ package com.yogisen.javainteremdiaire;
 
 public class Examen {
 	
-	public void afficherMessage() {
-		System.out.println(" Bienvenue à cet Exam");
+	public void printMessage(String matters) {
+		System.out.println(" welcome to the exam  " +matters);
 	}
-	public void dureeDeLEpreuve () {
-		System.out.println(" vous avez 60 minutes");
+	public void durationOfProof (int tps) {
+		System.out.println(" u have  " +tps+ "minutes");
 }
-	public void question1 () {
-		System.out.println(" reponse question 1");
+	public void question1 (String answer1) {
+		System.out.println(" answer : " + answer1);
+	}
+	public void question2 (int answer2) {
+		System.out.println(" your answer " + answer2);
 }
-	public void question2 () {
-		System.out.println(" quest 2");
+	public void thx () {
+		System.out.println(" thank you");
+	}
+	public void goodbye () {
+		System.out.println(" see u soon take care ");
+		
+	}
 }
-}
+
