@@ -19,6 +19,10 @@ public class Examen {
 	}
 	public void goodbye () {
 		System.out.println(" see u soon take care ");
+	}
+	public void impossible() {
+		System.out.println(" it 's impossible ");
+		System.out.println(" try again please");
 		
 	}
 }

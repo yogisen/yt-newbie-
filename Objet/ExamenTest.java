@@ -4,7 +4,7 @@ public class ExamenTest {
 
 	public static void main(String[] args) {
 		
-		int answer2 = 4;
+		int answer2;
 		// string answer 1
 				
 			Scanner keyboard = new Scanner(System.in);
@@ -23,8 +23,8 @@ public class ExamenTest {
 				System.out.println(" how much 2 * 2 ");
 					 answer2 = keyboard.nextInt();
 				 if (answer2 !=4)
-					 System.out.println(" it's not possible please try again ");
-				 examen.question2(answer2);
+					 examen.impossible();
+					 examen.question2(answer2);
 			} while  (answer2 != 4);
 		 
 			 examen.thx();
