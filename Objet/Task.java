@@ -8,17 +8,19 @@ public class Task {
 	public boolean completed = false;
 	public int recupere_tps;
 	
-	public Task(String titre, String desc, int temps) {
+	public Task(String titre, String desc, int time) {
+		this.title = title;
+		description = desc;
+		this.time = time;
+		/*		
 		title = titre; 
 		description = desc;
 		time = temps;
-		
+		*/
 	}
-	public void completed() {
+	public void completed()
+	{
 		completed = true;
-	
-	
-	
 	}
 
 }

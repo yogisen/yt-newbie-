@@ -30,6 +30,7 @@ public class ExamenTest {
 			 examen.thx();
 			 examen.goodbye();
 			 
+			 
 			
 				
 			}
